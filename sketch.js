@@ -11,7 +11,7 @@ var bob1,bob2,bob3,bob4,bob5
 var sling1,sling2,sling3,sling4,sling5
 
 function setup() {
-  createCanvas(windowWidth/2,windowHeight/1.5);
+  canvas = createCanvas(windowWidth/2,windowHeight/1.5);
 
   engine=Engine.create();
   world = engine.world
